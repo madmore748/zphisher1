@@ -1,0 +1,1 @@
+absa.history=absa.history||{};absa.history.add=function(b){function a(){b=b.toLowerCase();bb.history.add(b)}if(absa.unconfirmedChanges){return absa.unconfirmedChanges.cancelNavigation(document.body,a)}else{return a()}};
